@@ -1,2 +1,2 @@
 # targettrust
-Sample projects for TargetTrust courses
+Sample projects for TargetTrust courses.
