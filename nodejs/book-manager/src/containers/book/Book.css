@@ -35,10 +35,9 @@ form div {
   padding: 5px 0;
 }
 form .full {
-  grid-column: 1 / -1;
+  grid-column: span 2;
 }
 form .right {
-  grid-column: 2;
   text-align: right;
 }
 label {

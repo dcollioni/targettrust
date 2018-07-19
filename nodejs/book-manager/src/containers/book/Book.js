@@ -51,7 +51,7 @@ const Book = ({
           <input type='number' name='publicationYear' min="1900" max="2050" value={publicationYear} onChange={onChangeField} />
         </label>
       </div>
-      <div>
+      <div className='full right'>
         <button type='submit'>Save</button>
       </div>
     </form>

@@ -1,7 +1,7 @@
 const { BookModel } = require('./mongo')
 
 const findBooks = () => {
-    return BookModel.find({})
+    return BookModel.find({}).sort({ title: 1 })
 }
 
 const insertBook = (book) => {
